@@ -1,0 +1,19 @@
+{
+  "generator-nitro-dev": {
+    "promptValues": {
+      "pre": "scss",
+      "js": "JavaScript",
+      "viewExt": "hbs",
+      "clientTpl": false,
+      "exporter": false,
+      "release": false
+    },
+    "name": "popper-js-test",
+    "preprocessor": "scss",
+    "jscompiler": "JavaScript",
+    "viewExtension": "hbs",
+    "clientTemplates": false,
+    "exporter": false,
+    "release": false
+  }
+}

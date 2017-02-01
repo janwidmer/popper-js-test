@@ -1,0 +1,45 @@
+{
+	"assets": {
+		"app.css": [
+			"+assets/css/variables.scss",
+			"+assets/css/mixins.scss",
+			"assets/css/reset.css",
+			"assets/css/basic.scss",
+			"patterns/**/css/*.scss",
+			"patterns/**/css/modifier/*.scss"
+		],
+		"app.js": [
+			"node_modules/babel-polyfill/dist/polyfill.min.js",
+			"node_modules/jquery/dist/jquery.min.js",
+			"node_modules/terrific/dist/terrific.min.js",
+			"node_modules/popper.js/dist/popper.min.js",
+			"assets/js/*.js",
+			"patterns/**/js/*.js",
+			"patterns/**/js/decorator/*.js"
+		]
+	},
+	"code": {
+		"compatibility": {
+			"browsers": ["> 1%", "last 2 versions", "ie 9", "android 4", "Firefox ESR", "Opera 12.1"]
+		}
+	},
+	"nitro": {
+		"patterns": {
+			"atom": {
+				"template": "project/blueprints/pattern",
+				"path": "patterns/atoms",
+				"pattern_prefix": "a"
+			},
+			"molecule": {
+				"template": "project/blueprints/pattern",
+				"path": "patterns/molecules",
+				"pattern_prefix": "m"
+			},
+			"organism": {
+				"template": "project/blueprints/pattern",
+				"path": "patterns/organisms",
+				"pattern_prefix": "o"
+			}
+		}
+	}
+}
